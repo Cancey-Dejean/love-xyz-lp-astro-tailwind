@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro"
 import { Image } from "astro:assets"
 import LJText from "../images/luke-james-text.svg"
+import LJImage from "../images/luke-james.png"
 ---
 
 <Layout title="Welcome to Astro.">
@@ -51,11 +52,16 @@ import LJText from "../images/luke-james-text.svg"
         <div
           class="absolute -bottom-[130px] md:-bottom-[130px] xl:-bottom-[250px] left-1/2 -translate-x-[46%]"
         >
-          <img
+          <Image
+            class="lj-img max-w-[560px] sm:max-w-[700px] xl:max-w-[900px] mx-auto scale-[1]"
+            src={LJImage}
+            alt="hello"
+          />
+          <!-- <img
             src="./src/images/luke-james.png"
             class="lj-img max-w-[560px] sm:max-w-[700px] xl:max-w-[900px] mx-auto scale-[1]"
             alt=""
-          />
+          /> -->
         </div>
       </div>
     </section>
