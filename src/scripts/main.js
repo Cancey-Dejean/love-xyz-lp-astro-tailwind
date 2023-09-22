@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const tl = gsap.timeline()
 
-  tl.from(jamesImg, { opacity: 0.4, duration: 1.3, scale: 1.4, delay: 1 })
+  tl.from(jamesImg, { opacity: 0.4, duration: 1.3, scale: 1.8, delay: 1 })
     .from(jamesText, { y: 70, scale: 1.5, opacity: 0, duration: 1.5 }, "-=.2")
     .from(jamesLoveText, { opacity: 0 }, "-=.2")
     .from(songTextLetters, {
