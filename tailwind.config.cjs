@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        headline: ["HeadLineA", "sans-serif"],
+        headline: ["HeadLineA", "Anton", "sans-serif"],
         love: ["Jolly Lodger", "cursive"],
       },
       colors: {
@@ -16,13 +16,13 @@ module.exports = {
       // => @media (min-width: 576px) { ... }
 
       md: "768px",
-      // => @media (min-width: 960px) { ... }
+      // => @media (min-width: 768px) { ... }
 
       lg: "992px",
-      // => @media (min-width: 1440px) { ... }
+      // => @media (min-width: 992px) { ... }
 
       xl: "1199px",
-      // => @media (min-width: 1440px) { ... }
+      // => @media (min-width: 1199px) { ... }
     },
   },
   plugins: [],

@@ -3,14 +3,6 @@ img {
   height: auto;
 }
 
-/* .lj-text {
-  transform: translateY(-70px);
-} */
-
-/* .lj-love {
-  transform: translateY(-90px);
-} */
-
 .hero::after {
   background: hsla(283, 83%, 86%, 1);
   position: absolute;
